@@ -1,0 +1,4 @@
+.idea/
+nodejs-crawling/node_modules/
+node_modules/
+yarn.lock
