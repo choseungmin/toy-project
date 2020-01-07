@@ -28,4 +28,4 @@ getHtml().then(html => {
 
   const data = ulList.filter(n => n.title);
   return data;
-}).then(res => log(res));
+}).then(res => log(res))
