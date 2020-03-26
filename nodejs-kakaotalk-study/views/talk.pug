@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  script(src='/javascripts/talk.js')
+  h1= title
+  p Welcome to #{title}
+  input(id='msg' type='text' value='testMessage')
+  input(type='button' value='send' onClick='sendTalk()')
+  input(type='button' value='getProfile' onClick='getProfile()')

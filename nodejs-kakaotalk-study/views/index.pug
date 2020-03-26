@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  script(src='/javascripts/index.js')
+  h1= title
+  p Welcome to #{title}
+  div
+    input(type='button' value='click me' onClick=`getToken('${apiKey}', '${redirectUri}')`)
+    //a(href='#' onClick=`getToken('${apiKey}', '${redirectUri}')`) clickme
