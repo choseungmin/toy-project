@@ -15,10 +15,6 @@ const BasketItemList = ({ items, total, onTake }) => {
   return (
     <div>
       {itemList}
-      <hr />
-      <p>
-        <b>총합: </b> {total}원
-      </p>
     </div>
   );
 };
